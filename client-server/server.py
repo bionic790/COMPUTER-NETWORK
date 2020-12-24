@@ -1,7 +1,7 @@
 from socket import *
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_DGRAM)
-serverSocket.bind(("DESKTOP-CK14PFH", serverPort))
+serverSocket.bind(("DESKTOP-1NAG2F", serverPort))
 print ("The server is ready to receive")
 while 1:
      sentence,clientAddress = serverSocket.recvfrom(2048)
